@@ -900,12 +900,12 @@ img {
 }
 
 .hero {
-  padding-top: 300px;
-  padding-bottom: 140px;
+  padding-top: 400px;
+  padding-bottom: 200px;
   color: #fff;
-  background: #666 url(../images/photo0.png) no-repeat;
+  background: #666 url(../images/banner.png) no-repeat;
   background-size: cover;
-  background-position: 50%
+  background-position: 100%
 }
 
 .hero .btn1 {

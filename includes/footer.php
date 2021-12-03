@@ -73,16 +73,16 @@
 			<div class="footer-nav__col footer-nav__col--contacts">
 				<div class="footer-nav__heading">Contact details</div>
 				<address class="address">
-				Head Office: Avenue Fashion.<br>
+				Head Office: cvmovtech.<br>
 				180-182 Regent Street, London.
 			</address>
 				<div class="phone">
 					Telephone:
-					<a class="phone__number" href="tel:0123456789">0123-456-789</a>
+					<a class="phone__number" href="tel:0123456789">03172746242</a>
 				</div>
 				<div class="email">
 					Email:
-					<a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+					<a href="mailto:support@yourwebsite.com" class="email__addr">support@cvmovtech.com</a>
 				</div>
 			</div>
 
@@ -93,7 +93,7 @@
 		<div class="container clearfix">
 
 			<div class="banner-award">
-				<span>Award winner</span><br> Fashion awards 2016
+				<span>Award winner</span><br> Quality awards 2020
 			</div>
 
 			<div class="banner-social">
@@ -118,15 +118,15 @@
 		<div class="container clearfix">
 
 			<div class="copyright">
-				&copy; 2018 Avenue Fashion&trade;
+				&copy; 2021 cvmovtech &trade;
 			</div>
 
 			<div class="developer">
-				Dev by Yasser Dalouzi
+				Dev by Daniyal Khan
 			</div>
 
 			<div class="designby">
-				Design by Yasser Dalouzi
+				Design by Daniyal Khan
 			</div>
 		</div>
 	</div>

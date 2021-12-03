@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost","root","root","ecom_store");
+$db = mysqli_connect("localhost","root","","ecom_store");
 
 /// IP address code starts /////
 function getRealUserIp(){
@@ -158,7 +158,7 @@ echo "
 
 <a href='$pro_url' >
 
-<img src='admin_area/product_images/$pro_img1' class='img-responsive' >
+<img src='admin_area/product_images/$pro_img1' class='img-responsive' style='height:300px'>
 
 </a>
 

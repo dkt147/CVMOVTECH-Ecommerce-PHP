@@ -21,7 +21,7 @@
         </div>
 
         <div class="basket">
-          <a href="cart.php" class="btn btn--basket">
+          <a href="../cart.php" class="btn btn--basket">
             <i class="icon-basket"></i>
             <?php items(); ?> items
           </a>
@@ -66,7 +66,7 @@
 
         <div class="logo">
           <a class="logo__link" href="../index.php">
-            <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19">
+            CVMOVTECH
           </a>
         </div>
 
@@ -74,21 +74,13 @@
           <ul class="categories">
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Mens
-                <i class="icon-down-open-1"></i>
+              <a class="categories__link" href="../index.php">
+                Home
               </a>
               </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Womens
-            
-              </a>
-            </li>
-
-            <li class="categories__item">
-              <a class="categories__link categories__link--active" href="shop.php">
+              <a class="categories__link categories__link--active" href="../shop.php">
                 Shop
               </a>
             </li>
@@ -96,6 +88,27 @@
             <li class="categories__item">
               <a class="categories__link" href="../about.php">
                 About us
+              </a>
+            </li>
+
+            
+            <li class="categories__item">
+              <a class="categories__link" href="../contact.php">
+                Contact Us
+               
+              </a>
+            </li>
+
+            <li class="categories__item">
+              <a class="categories__link" href="../terms.php">
+                Terms
+               
+              </a>
+            </li>
+
+            <li class="categories__item">
+              <a class="categories__link" href="../localstore.php">
+                Local Stores
               </a>
             </li>
 

@@ -64,6 +64,28 @@ $i++;
 
 ?>
 
+</form>
+<?php
+require('stripe_config.php');
+
+$_SESSION['price'] = $pro_price*$pro_qty."00";
+$_SESSION['title']= $row_products['product_title'];
+
+?>
+
+<form action="stripe_submit.php" method="post">
+	<script
+		src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+		data-key="<?php echo $publishableKey?>"
+		data-amount="<?php echo $pro_price*$pro_qty."00"; ?>"
+		data-name="CVMOVTECH"
+		data-description="<?php echo $product_title; ?>"
+		data-image="images/nv.png"
+		data-currency="usd"
+	>
+	</script>
+
+</form>
 
 <input type="hidden" name="item_name_<?php echo $i; ?>" value="<?php echo $product_title; ?>" >
 
@@ -79,7 +101,8 @@ $i++;
 <input type="image" name="submit" width="500" height="270" src="images/paypal.png" >
 
 
-</form><!-- form Ends -->
+
+<!-- form Ends -->
 
 </center><!-- center Ends -->
 

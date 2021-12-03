@@ -24,7 +24,7 @@ include("includes/main.php");
   </main>
 
 
-<div id="content" ><!-- content Starts -->
+<div id="content" style="background-color:skyblue;"><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
 
 
@@ -164,9 +164,6 @@ include("includes/main.php");
 
 <center>
 
-<label> Captcha Verification </label>
-
-<div class="g-recaptcha" data-sitekey="6Lc-WxYUAAAAAFUhTFfBEzLGmEgRXHHdsD4ECvIC"></div>
 
 </center>
 
@@ -331,15 +328,7 @@ if(isset($_POST['register'])){
 
 $secret = "6Lc-WxYUAAAAAN5j2OdDsryWwGfREg5eeuZFpKMv";
 
-$response = $_POST['g-recaptcha-response'];
-
 $remoteip = $_SERVER['REMOTE_ADDR'];
-
-$url = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response&remoteip=$remoteip");
-
-$result = json_decode($url, TRUE);
-
-if($result['success'] == 1){
 
 $c_name = $_POST['c_name'];
 
@@ -434,12 +423,8 @@ echo "<script>window.open('index.php','_self')</script>";
 }
 
 
-}
-else{
 
-echo "<script>alert('Please Select Captcha, Try Again')</script>";
 
-}
 
 
 }

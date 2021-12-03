@@ -38,7 +38,7 @@ if(!isset($_SESSION['customer_email'])){
 } 
   else
   { 
-      echo '<a href="my_account.php?my_orders" class="login__link">My Account</a>';
+      echo '<a href="customer/my_account.php?my_orders" class="login__link">My Account</a>';
   }   
 ?>  
 </li>
@@ -51,7 +51,7 @@ if(!isset($_SESSION['customer_email'])){
 } 
   else
   { 
-      echo '<a href="../logout.php" class="login__link">Log out</a>';
+      echo '<a href="customer/logout.php" class="login__link">Log out</a>';
   }   
 ?>  
   
@@ -66,7 +66,7 @@ if(!isset($_SESSION['customer_email'])){
 
         <div class="logo">
           <a class="logo__link" href="index.php">
-            <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19">
+            <img src="images/nv.png">
           </a>
         </div>
 
@@ -74,22 +74,37 @@ if(!isset($_SESSION['customer_email'])){
           <ul class="categories">
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Mens
+              <a class="categories__link categories__link--active" href="index.php">
+                Home
                
               </a>
               </li>
 
+
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Womens
+              <a class="categories__link categories__link" href="shop.php">
+                Shop
+              </a>
+            </li>
+            
+            <li class="categories__item">
+              <a class="categories__link" href="about.php">
+                About Us
                
               </a>
             </li>
 
             <li class="categories__item">
-              <a class="categories__link categories__link--active" href="shop.php">
-                Shop
+              <a class="categories__link" href="contact.php">
+                Contact Us
+               
+              </a>
+            </li>
+
+            <li class="categories__item">
+              <a class="categories__link" href="terms.php">
+                Terms
+               
               </a>
             </li>
 
